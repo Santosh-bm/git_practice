@@ -10,9 +10,13 @@ public class StringFunction {
 		{
 			System.out.println("given user id is valid");
 		}
-		else
+		else if(str.length()<2)
 		{
 			System.out.println("given user id is invalid");
+		}
+		else
+		{
+			System.out.println("id is empty");
 		}
 
 	}
